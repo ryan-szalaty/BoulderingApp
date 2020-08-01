@@ -1,0 +1,23 @@
+{
+  "name": "boulderingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ryan-szalaty:GitHub1!@github.com/ryan-szalaty/BoulderingApp.git"
+  },
+  "author": "Ryan Szalaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan-szalaty/BoulderingApp/issues"
+  },
+  "homepage": "https://github.com/ryan-szalaty/BoulderingApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
