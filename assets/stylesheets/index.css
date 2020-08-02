@@ -1,3 +1,6 @@
 body {
-	color: red;
+	background-image: url("https://images.unsplash.com/photo-1550265486-df3659283974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: luminosity;
 }
