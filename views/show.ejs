@@ -2,9 +2,14 @@
 
 <div class = "container">
 	<div class = "jumbotron">
+		<% for(i = 0; i < foundPrefecture.gyms.length; i++) { %>
 		<p>
-			<%= foundPrefecture.gyms[0].gym_name %>
+			<%= foundPrefecture.gyms[i].gym_name %>
 		</p>
+		<p>
+			<%= foundPrefecture.gyms[i].location %>
+		</p>
+		<% } %>
 	</div>
 </div>
 

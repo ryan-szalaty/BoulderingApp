@@ -7,8 +7,16 @@ const prefectureSchema = new Schema({
 	gyms: [
 		{
 			gym_name: String,
-			image: String
-		}
+			location: String
+		},
+		{
+			gym_name: String,
+			location: String
+		},
+		{
+			gym_name: String,
+			location: String
+		},
 	]
 });
 

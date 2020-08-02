@@ -34,12 +34,20 @@ app.get("/prefectures/:id", (req, res) => {
 });
 
 /*Prefecture.create({
-	name: "Minato",
+	name: "Akita",
 	gyms: [
 		{
-			gym_name: "The Wall-E",
-			image: "https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-		}
+			gym_name: "タカ・クライミングジム",
+			location: "9-10 Kotobukicho, Yokote, Akita 013-0025"
+		},
+		{
+			gym_name: "ガラパカ クライミング",
+			location: "1 Chome-3-7 Yabaseohata, Akita, 010-0962"
+		},
+		{
+			gym_name: "クラムボンクライミング",
+			location: "〒024-0004 Iwate, Kitakami, Murasakino, 14 Chiwari−457-4"
+		},
 	]
 }, (err, newPrefecture) => {
 	if(err) {
