@@ -33,20 +33,20 @@ app.get("/prefectures/:id", (req, res) => {
 	});
 });
 
-/*Prefecture.create({
-	name: "Akita",
+Prefecture.create({
+	name: "Okinawa",
 	gyms: [
 		{
-			gym_name: "タカ・クライミングジム",
-			location: "9-10 Kotobukicho, Yokote, Akita 013-0025"
+			gym_name: "Coral Rock",
+			location: "369-2 Chunjun, 中頭郡北中城村 Nakagami District, Okinawa 901-2303"
 		},
 		{
-			gym_name: "ガラパカ クライミング",
-			location: "1 Chome-3-7 Yabaseohata, Akita, 010-0962"
+			gym_name: "LOOK ROCK Bouldering Park",
+			location: "〒904-2143 Okinawa, Chibana, 4 Chome−12−1 別館 2F"
 		},
 		{
-			gym_name: "クラムボンクライミング",
-			location: "〒024-0004 Iwate, Kitakami, Murasakino, 14 Chiwari−457-4"
+			gym_name: "Borubaka",
+			location: "882 Ameku, Naha, Okinawa 900-0005"
 		},
 	]
 }, (err, newPrefecture) => {
@@ -55,7 +55,7 @@ app.get("/prefectures/:id", (req, res) => {
 	} else {
 		console.log("Prefecture created.");
 	}
-}); */
+}); 
 
 app.listen(process.env.PORT || 3000, process.env.IP, (req, res) => {
 	console.log("Server initiated.");
