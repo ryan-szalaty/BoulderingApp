@@ -34,19 +34,19 @@ app.get("/prefectures/:id", (req, res) => {
 });
 
 Prefecture.create({
-	name: "Okinawa",
+	name: "Yamanashi",
 	gyms: [
 		{
-			gym_name: "Coral Rock",
-			location: "369-2 Chunjun, 中頭郡北中城村 Nakagami District, Okinawa 901-2303"
+			gym_name: "Coccinelle Rock",
+			location: "Sutamacho Hishi, Hokuto, Yamanashi 408-0102"
 		},
 		{
-			gym_name: "LOOK ROCK Bouldering Park",
-			location: "〒904-2143 Okinawa, Chibana, 4 Chome−12−1 別館 2F"
+			gym_name: "クライミングジムピラニア 富士吉田店",
+			location: "4235-1 Kamiyoshida, Fujiyoshida, Yamanashi 403-0005"
 		},
 		{
-			gym_name: "Borubaka",
-			location: "882 Ameku, Naha, Okinawa 900-0005"
+			gym_name: "クライミングジムアクティバ（Ａｃｔｉｖ−Ａ)",
+			location: "701 Kobarahigashi, Yamanashi, 405-0018"
 		},
 	]
 }, (err, newPrefecture) => {
