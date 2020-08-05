@@ -1,18 +1,20 @@
 <%- include("partials/header") %>
 
-<h1>
+<h1 class = "text-center my-5">
 	List of Prefectures
 </h1>
 
 <div class = "container">
 	<div class = "jumbotron">
-		<% prefecture.forEach(function(prefecture) { %>
-		<a href = "/prefectures/<%= prefecture._id %>" >
-		<p>
-			<%= prefecture.name %>
-		</p>
-		</a>
-		<% }) %>
+		<ul class = "text-center">
+			<% prefecture.forEach(function(prefecture) { %>
+			<a href = "/prefectures/<%= prefecture._id %>" >
+			<li>
+				<%= prefecture.name %>
+			</li>
+			</a>
+			<% }) %>
+		</ul>
 	</div>
 </div>
 

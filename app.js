@@ -33,7 +33,7 @@ app.get("/prefectures/:id", (req, res) => {
 	});
 });
 
-Prefecture.create({
+/*Prefecture.create({
 	name: "Yamanashi",
 	gyms: [
 		{
@@ -55,7 +55,7 @@ Prefecture.create({
 	} else {
 		console.log("Prefecture created.");
 	}
-}); 
+}); */
 
 app.listen(process.env.PORT || 3000, process.env.IP, (req, res) => {
 	console.log("Server initiated.");
